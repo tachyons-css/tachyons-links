@@ -8,6 +8,26 @@ npm install --save-dev tachyons-links
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   LINKS
+
+*/
+
+.link {
+  text-decoration: none;
+  transition: all .4s;
+}
+
+.link:link    { color: #30BBDB; }
+.link:visited { color: #2D243B; }
+.link:hover   { color: #004EAB; }
+.link:active  { color: #C4E3E0; }
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
