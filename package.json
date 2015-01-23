@@ -1,12 +1,12 @@
 {
   "name": "tachyons-links",
   "version": "0.4.0",
-  "style": "links.css",
+  "style": "tachyons-links.css",
   "homepage": "http://mrmrs.io/tachyons-links",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
