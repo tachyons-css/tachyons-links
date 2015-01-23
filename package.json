@@ -1,6 +1,6 @@
 {
   "name": "tachyons-links",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "style": "tachyons-links.css",
   "homepage": "http://mrmrs.io/tachyons-links",
   "description": "Performance based css module.",
