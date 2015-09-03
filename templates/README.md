@@ -1,33 +1,22 @@
-# TACHYONS-LINKS
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-links
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   LINKS
-
-*/
-
-.link {
-  text-decoration: none;
-  transition: all .4s;
-}
-
-.link:link    { color: #30BBDB; }
-.link:visited { color: #2D243B; }
-.link:hover   { color: #004EAB; }
-.link:active  { color: #C4E3E0; }
+<%= srcCSS %>
 ```
 
 ## Author

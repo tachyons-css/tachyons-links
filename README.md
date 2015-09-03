@@ -1,18 +1,21 @@
-# TACHYONS-LINKS
+# tachyons-links
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-links
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-links
+```
 
 ## The Code
 ```
-
 /*
 
    LINKS
@@ -21,13 +24,31 @@ or download the css on github and include in your project.
 
 .link {
   text-decoration: none;
-  transition: all .4s;
+  -webkit-transition: color .15s ease-in;
+          transition: color .15s ease-in;
 }
 
-.link:link    { color: #30BBDB; }
-.link:visited { color: #2D243B; }
-.link:hover   { color: #004EAB; }
-.link:active  { color: #C4E3E0; }
+.link:link,
+.link:visited {
+  -webkit-transition: color .15s ease-in;
+          transition: color .15s ease-in;
+}
+.link:hover   {
+  -webkit-transition: color .15s ease-in;
+          transition: color .15s ease-in;
+}
+.link:active  {
+  -webkit-transition: color .15s ease-in;
+          transition: color .15s ease-in;
+}
+.link:focus   {
+  -webkit-transition: color .15s ease-in;
+          transition: color .15s ease-in;
+}
+
+.underline             { text-decoration: underline; }
+.underline-hover:hover { text-decoration: underline; }
+
 ```
 
 ## Author
