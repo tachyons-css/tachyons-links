@@ -1,1 +1,2 @@
-.link{text-decoration:none;-webkit-transition:color .15s ease-in;transition:color .15s ease-in}.link:link,.link:visited{-webkit-transition:color .15s ease-in;transition:color .15s ease-in}.link:hover{-webkit-transition:color .15s ease-in;transition:color .15s ease-in}.link:active{-webkit-transition:color .15s ease-in;transition:color .15s ease-in}.link:focus{-webkit-transition:color .15s ease-in;transition:color .15s ease-in}.underline{text-decoration:underline}.underline-hover:hover{text-decoration:underline}
+.link{text-decoration:none}.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.underline,.underline-hover:hover{text-decoration:underline}
+
