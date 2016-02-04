@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-161 | 8 | 8
+138 | 6 | 6
 ---|---|---
 bytes | selectors | declarations
 
@@ -66,8 +66,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .link:hover { transition: color .15s ease-in; }
 .link:active { transition: color .15s ease-in; }
 .link:focus { transition: color .15s ease-in; }
-.underline { text-decoration: underline; }
-.underline-hover:hover { text-decoration: underline; }
 ```
 
 ## Contributing
