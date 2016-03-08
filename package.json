@@ -1,6 +1,6 @@
 {
   "name": "tachyons-links",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "style": "src/tachyons-links.css",
   "description": "Performance based css module.",
   "keywords": [
