@@ -1,10 +1,10 @@
-# tachyons-links 3.0.5
+# tachyons-links 3.0.6
 
 Performance based css module.
 
 #### Stats
 
-138 | 6 | 6
+108 | 1 | 3
 ---|---|---
 bytes | selectors | declarations
 
@@ -34,7 +34,7 @@ git clone git@github.com:tachyons-css/tachyons-links.git
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
@@ -42,24 +42,24 @@ Import the css module
 @import "tachyons-links";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-links@3.0.5/css/tachyons-links.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-links@3.0.6/css/tachyons-links.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
@@ -68,10 +68,10 @@ You can either cut and paste that css or link to it directly in your html.
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
 /*
@@ -79,11 +79,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    LINKS
 
 */
-.link { text-decoration: none; transition: color .15s ease-in; }
-.link:link, .link:visited { transition: color .15s ease-in; }
-.link:hover { transition: color .15s ease-in; }
-.link:active { transition: color .15s ease-in; }
-.link:focus { transition: color .15s ease-in; }
+.link { text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 ```
 
 ## Contributing
